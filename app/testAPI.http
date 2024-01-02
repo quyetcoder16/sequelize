@@ -1,0 +1,12 @@
+GET http://127.0.0.1:8080/student/get-list-student HTTP/1.1
+
+
+####
+POST http://127.0.0.1:8080/student/create-student HTTP/1.1
+
+Content-Type: application/json
+{
+    "fullName": "Duong Xuan Quyet",
+    "age": 18,
+    "numberClass": 12
+}
