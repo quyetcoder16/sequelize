@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize"
 
-const createStudentModel = async (sequelize) => {
+const createStudentModel = (sequelize) => {
     return sequelize.define(
         "student",
         {

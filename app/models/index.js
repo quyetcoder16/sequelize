@@ -20,11 +20,7 @@ const checkConnect = async () => {
 checkConnect();
 
 const Student = createStudentModel(sequelize);
-Student.create({
-    "fullName": "Duong Xuan Quyet",
-    "age": 18,
-    "numberClass": 12
-});
+
 
 export {
     sequelize,
